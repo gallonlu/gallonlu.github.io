@@ -1,0 +1,23 @@
+
+jPanelMenu, body {
+    overflow-x: hidden;
+}
+#jPanelMenu-menu {
+    display: block;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
+.jPanelMenu-panel {
+    background: none repeat scroll 0 0 #FFFFFF;
+    min-height: 100%;
+    position: static;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
