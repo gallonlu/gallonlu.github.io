@@ -1400,7 +1400,7 @@ p.homepage_tagline {
     width: 73%;
 }
 .user_timeline .timeline {
-    background: url("http://moon.cse.yzu.edu.tw/~s1001422/gallonlu/assets/spline.png") repeat-y scroll 6px center rgba(0, 0, 0, 0);
+    background: url("../assets/spline.png") repeat-y scroll 6px center rgba(0, 0, 0, 0);
     overflow: hidden;
     position: relative;
 }
@@ -1562,7 +1562,7 @@ img.user_avatar {
     font-size: 28px;
 }
 #section-profileImage .default_cover {
-    background: url("assets/1_cover.jpg") no-repeat scroll center center / cover #444444;
+    background: url("../assets/1_cover.jpg") no-repeat scroll center center / cover #444444;
     color: #000000;
     font-size: 90px;
 }
@@ -1830,7 +1830,7 @@ p.no_user_message {
     background: none repeat scroll 0 0 #FFFFFF;
 }
 .black_and_white {
-    filter: url("assets/desaturate.svg#greyscale");
+    filter: url("../assets/desaturate.svg#greyscale");
 }
 .uppercase {
     text-transform: uppercase;
@@ -2149,7 +2149,7 @@ i.huge_icon {
     background: none repeat scroll 0 0 #1ABC9C;
 }
 .milestone_timeline .timeline {
-    background: url("http://moon.cse.yzu.edu.tw/~s1001422/gallonlu/assets/spline.png") repeat-y scroll 6px center rgba(0, 0, 0, 0);
+    background: url("../assets/spline.png") repeat-y scroll 6px center rgba(0, 0, 0, 0);
     overflow: hidden;
     position: relative;
 }
@@ -3264,7 +3264,7 @@ a.link-print, a.link-pdf {
     font-family: "FontAwesome";
     font-style: normal;
     font-weight: normal;
-    src: url("http://moon.cse.yzu.edu.tw/~s1001422/gallonlu/assets/fontawesome-webfont.eot") format("embedded-opentype"), url("http://moon.cse.yzu.edu.tw/~s1001422/gallonlu/assets/fontawesome-webfont.woff") format("woff"), url("http://moon.cse.yzu.edu.tw/~s1001422/gallonlu/assets/fontawesome-webfont.ttf") format("truetype"), url("http://moon.cse.yzu.edu.tw/~s1001422/gallonlu/assets/assets/fontawesome-webfont.svg") format("svg");
+    src: url("../assets/fontawesome-webfont.eot") format("embedded-opentype"), url("../assets/fontawesome-webfont.woff") format("woff"), url("../assets/fontawesome-webfont.ttf") format("truetype"), url("../assets/fontawesome-webfont.svg") format("svg");
 }
 [class^="icon-"], [class*=" icon-"] {
     font-family: FontAwesome;
