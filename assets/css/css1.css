@@ -1400,7 +1400,7 @@ p.homepage_tagline {
     width: 73%;
 }
 .user_timeline .timeline {
-    background: url("../assets/spline.png") repeat-y scroll 6px center rgba(0, 0, 0, 0);
+    background: url("assets/spline.png") repeat-y scroll 6px center rgba(0, 0, 0, 0);
     overflow: hidden;
     position: relative;
 }
@@ -2149,7 +2149,7 @@ i.huge_icon {
     background: none repeat scroll 0 0 #1ABC9C;
 }
 .milestone_timeline .timeline {
-    background: url("../assets/spline.png") repeat-y scroll 6px center rgba(0, 0, 0, 0);
+    background: url("assets/spline.png") repeat-y scroll 6px center rgba(0, 0, 0, 0);
     overflow: hidden;
     position: relative;
 }
@@ -3264,7 +3264,7 @@ a.link-print, a.link-pdf {
     font-family: "FontAwesome";
     font-style: normal;
     font-weight: normal;
-    src: url("../assets/fontawesome-webfont.eot") format("embedded-opentype"), url("../assets/fontawesome-webfont.woff") format("woff"), url("../assets/fontawesome-webfont.ttf") format("truetype"), url("../assets/fontawesome-webfont.svg") format("svg");
+    src: url("assets/fontawesome-webfont.eot") format("embedded-opentype"), url("assets/fontawesome-webfont.woff") format("woff"), url("fontawesome-webfont.ttf") format("truetype"), url("assets/fontawesome-webfont.svg") format("svg");
 }
 [class^="icon-"], [class*=" icon-"] {
     font-family: FontAwesome;
