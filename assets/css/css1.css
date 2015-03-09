@@ -3260,13 +3260,7 @@ a.link-print, a.link-pdf {
     position: relative;
     top: 6px;
 }
-/*@font-face {
-    font-family: "FontAwesome";
-    font-style: normal;
-    font-weight: normal;
-    src: url("fontawesome-webfont.eot") format("embedded-opentype"), url("fontawesome-webfont.woff") format("woff"), url("fontawesome-webfont.ttf") format("truetype"), url("assets/fontawesome-webfont.svg") format("svg");
-}
-*/
+
 @font-face{
 font-family:'FontAwesome';
 src:url("/assets/fontawesome-webfont.eot?v=3.1.0");
