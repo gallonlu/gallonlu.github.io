@@ -13,7 +13,7 @@ bgImage.onload = function () {
 };
 bgImage.src = "img/bg.png";
 
-//  image
+//  player image
 var playerReady = false;
 var playerImage = new Image();
 playerImage.onload = function () {
@@ -21,7 +21,7 @@ playerImage.onload = function () {
 };
 playerImage.src = "img/mario.png";
 
-//  image
+//  item image
 var itemReady = false;
 var itemImage = new Image();
 itemImage.onload = function () {
@@ -31,12 +31,12 @@ itemImage.src = "img/mushroom.png";
 
 // Game objects
 var player = {
-	speed: 256 // movement in pixels per second
+	speed: 200 // movement in pixels per second
 };
 var item = {};
 var itemsCaught = 0;
 
-// Handle keyboard controls
+// keyboard controls
 var keysDown = {};
 
 addEventListener("keydown", function (e) {
@@ -59,20 +59,20 @@ var reset = function () {
 
 // Update game objects
 var update = function (modifier) {
-	if (38 in keysDown) { // Player holding up
+	if (38 in keysDown) { //up
 		player.y -= player.speed * modifier;
 	}
-	if (40 in keysDown) { // Player holding down
+	if (40 in keysDown) { //down
 		player.y += player.speed * modifier;
 	}
-	if (37 in keysDown) { // Player holding left
+	if (37 in keysDown) { //left
 		player.x -= player.speed * modifier;
 	}
-	if (39 in keysDown) { // Player holding right
+	if (39 in keysDown) { //right
 		player.x += player.speed * modifier;
 	}
 
-	// Are they touching?
+	//touch detect
 	if (
 		player.x <= (item.x + 32)
 		&& item.x <= (player.x + 32)
@@ -120,7 +120,7 @@ var main = function () {
 	requestAnimationFrame(main);
 };
 
-// Let's play this game!
+//play this game
 var then = Date.now();
 reset();
 main();
