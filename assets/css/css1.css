@@ -569,6 +569,9 @@ h4.projects_h4 {
 h4.timeline_h4 {
     margin-bottom: 12px;
 }
+h4.small {
+    font-size: 20px;    
+}
 #section-projects-display .img-wrap {
     background: none repeat scroll 0 0 #FFFFFF;
     line-height: 0;
@@ -1359,7 +1362,7 @@ p.homepage_tagline {
     background: none repeat scroll 0 0 #FFFFFF;
     border-bottom: 1px solid #EEEEEE;
     color: #333333;
-    font: 18px/25px 'Vollkorn',Georgia,serif;
+    /*font: 18px/25px 'Vollkorn',Georgia,serif;*/
     padding: 60px 0;
 }
 #section-user-search {
@@ -1580,6 +1583,18 @@ img.user_avatar {
     font-weight: bold;
     line-height: 28px;
     margin-bottom: 6px;
+}
+#section-post-snippets .post_tile Normal {
+    font-family: "Open Sans","HelveticaNeue",Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: 6px;
+}
+#section-post-snippets .post_tile small {
+    font-family: "Open Sans","HelveticaNeue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 4px;
 }
 #section-post-snippets p.read_more {
     margin-top: 4px;
