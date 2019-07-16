@@ -1584,18 +1584,6 @@ img.user_avatar {
     line-height: 28px;
     margin-bottom: 6px;
 }
-#section-post-snippets .post_tile Normal {
-    font-family: "Open Sans","HelveticaNeue",Helvetica,Arial,sans-serif;
-    font-size: 18px;
-    line-height: 26px;
-    margin-bottom: 6px;
-}
-#section-post-snippets .post_tile small {
-    font-family: "Open Sans","HelveticaNeue",Helvetica,Arial,sans-serif;
-    font-size: 16px;
-    line-height: 24px;
-    margin-bottom: 4px;
-}
 #section-post-snippets p.read_more {
     margin-top: 4px;
     position: relative;
